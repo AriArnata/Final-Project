@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resep Mama</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="resep.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+    h5{
+      color: black;
+    }
+    p{
+      font-size: 20px;
+    }
+    ul{
+      font-size: 20px
+    }
+    </style>
+  </head>
+<body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <!--header  -->
+<header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Resep Mama</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="myweb.html">Beranda<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ayam.html">Ayam</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="sayur.html">Sayur</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ikan.html">Ikan</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="sup.html">Sup</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Cari resepmu...." aria-label="Cari resepmu....">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+ </header>
+ <div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Resep-Tumis-kangkung.jpg" class="d-block w-100" alt="..." height="500px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="font-weight-bold text-light bg-dark">Tumis Kangkung</h5>
+          <p class="text-light bg-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images_mie_Mie_ayam_14-mie-ayam-kampung.jpg" class="d-block w-100" alt="..." height="500px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="font-weight-bold text-light bg-dark">Mie Ayam</h5>
+          <p class="text-light bg-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="resep-perkedel-kentang-rebus-5bc35606db8a0072e4330ee6ae250aaa_600x400.jpg" class="d-block w-100" alt="..." height="500px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="font-weight-bold text-light bg-dark">Perkedel Kentang</h5>
+          <p class="text-light bg-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!-- profile -->
+<div class="container mt-3 pt-3">
+  <h3 class="mb-3 pb-3">Top Highlight</h3>
+    <div class="row">
+<!-- tumis kangkung -->
+        <div class="col-md-4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <h4 class="bg-info mb-0 pb-0 text-center">Tumis Kangkung</h4>
+                  <img src="Resep-Tumis-kangkung.jpg" width="100%" height="250px">
+              </div>
+              <div class="card-content" style="height:145px;">
+                <span class="card-title grey-text text-darken-4"></span>
+                <p>Sering merasa masakan tumis kangkung di restoran atau warung makan terasa lebih enak dan menggugah selera? Kalau iya kamu tak sendiri ladies. Banyak.....</p>
+              </div>
+             <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tumisKangkung">
+    Read More
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="tumisKangkung" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tumisKangkung">Tumis Kangkung</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            Sering merasa masakan tumis kangkung di restoran atau warung makan terasa lebih enak dan menggugah selera? Kalau iya kamu tak sendiri ladies. Banyak orang yang terkadang merasa bahwa masakan tumis kangkung di restoran terasa lebih enak daripada buatan sendiri. Padahal nih ya, kamu bisa kok buat tumis kangkung seenak masakan restoran di rumah. 
+
+            Dengan memanfaatkan bumbu dapur sederhana dan sayur kangkung yang masih fresh, tumis kangkung seenak restoran bukan lagi mimpi. Berikut resepnya. 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Gak Jadi</button>
+          <a href="kangkung.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Baca Resepnya</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+            </div>
+          </div>
+<!-- perkedel -->
+          <div class="col-md-4">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <h4 class="bg-info mb-0 pb-0 text-center">Perkedel Kentang</h4>
+                    <img src="resep-perkedel-kentang-rebus-5bc35606db8a0072e4330ee6ae250aaa_600x400.jpg" width="100%" height="250px">
+                </div>
+                <div class="card-content" style="height:145px;">
+                  <span class="card-title grey-text text-darken-4"></span>
+                  <p>Perkedel kentang. Satu hidangan pendamping yang tidak hanya terkenal di Indonesia, namun juga di berbagai negara di dunia. Disajikan begitu saja sudah begitu nikmat.....</p>
+                </div>
+               <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#perkedelKentang">
+      Read More
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="perkedelKentang" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="perkedelKentang">Perkedel Kentang</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              Perkedel kentang. Satu hidangan pendamping yang tidak hanya terkenal di Indonesia, namun juga di berbagai negara di dunia. Disajikan begitu saja sudah begitu nikmat, apalagi ketika tergabung dengan berbagai lauk pauk lainnya. Siapapun yang menciptakannya berhak mendapatkan penghargaan yang setinggi-tingginya!
+
+Terlepas dari tampilannya yang sederhana, perkedel kentang memiliki kedalaman rasa yang tidak dimiliki hidangan pendamping lainnya. Terkadang diisikan daging cincang ataupun polos, sudah cukup ia sendiri saja mendampingi sebuah hidangan lengkap yang menggunakan nasi ataupun karbohidrat lainnya. Tidak hanya itu, perkedel kentang juga cocok dipadukan dengan ragam protein. Dari daging ayam, sapi, hingga seafood pasti cocok.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Gak Jadi</button>
+            <a href="kentang.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Baca Resepnya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+              </div>
+            </div>
+
+<!-- mie ayam -->
+<div class="col-md-4">
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <h4 class="bg-info mb-0 pb-0 text-center">Perkedel Kentang</h4>
+          <img src="images_mie_Mie_ayam_14-mie-ayam-kampung.jpg" width="100%" height="250px">
+      </div>
+      <div class="card-content" style="height:145px;">
+        <span class="card-title grey-text text-darken-4"></span>
+        <p>Semua orang pasti sudah banyak yang tahu kenikmatan dari semangkuk mie ayam. Memang Mie bukanlah makanan asli dari Indonesia dan bukan merupakan makanan pokok, tapi walaupun demikian...</p>
+      </div>
+     <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mieAyam">
+Read More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="mieAyam" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable" role="document">
+<div class="modal-content">
+<div class="modal-header">
+  <h5 class="modal-title" id="mieAyam">Mie Ayam</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+    Semua orang pasti sudah banyak yang tahu kenikmatan dari semangkuk mie ayam. Memang Mie bukanlah makanan asli dari Indonesia dan bukan merupakan makanan pokok, tapi walaupun demikian, mie juga termasuk makanan populer bila dibandingkan dengan makanan berat lainnya. Apakah hal yang ada di pikiran Anda setiap kali mendengar kata mie? Apakah jawabannya adalah mie instan? Biasanya anak kos kebiasaannya makan mie instan, karena enak dan praktis membuatnya. Namun, pastinya Anda tahu kan apa saja efek samping negatif akibat dari keseringan makan mie instan yang mengandung banyak bahan pengawetnya dan micinnya itu? Apakah Anda akan menjadi generasi micin selanjutnya?
+
+    Mie telah mempunyai ruang tersendiri di hati para penggemarnya di Indonesia, walaupun mie bukan makanan pokok di Indonesia seperti halnya nasi. Banyak sekali variasi dan kreasi makanan yang dihasilkan dari sebuah mie, yaitu mie goreng, mie kuah cakalang, mie ramen khas Jepang, mie Aceh, dan masih banyak lagi macamnya.
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Gak Jadi</button>
+  <a href="mieAyam.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Baca Resepnya</a>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+  </div>
+    </div>
+</div>
+
+<!-- service -->
+<div class="bg-primary">
+    <div class="container mt-5 pt-5 pb-5">
+        <h3 class="text-center text-light pb-4">Our Service</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="text-center"><a href="#" class="text-dark">Catering</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, laborum.</p>
+            </div>
+
+            <div class="col-md-4">
+                    <h3 class="text-center"><a href="#" class="text-dark">Delivery</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, laborum.</p>
+                </div>
+
+            <div class="col-md-4">
+                    <h3 class="text-center"><a href="#" class="text-dark">Resepmu</a></h3>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, laborum.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- contact -->
+
+<div class="container mt-5 pb-5">
+    <div class="row">
+        <div class="col-md-9">
+            <!-- maps -->
+            <iframe src="https://www.google.com/maps/embed?pb=" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-3">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@gmail">Contact Us</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">CONTACT US</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="https://formspree.io/address@email.tld" method="POST">
+                          <div class="form-group">
+                            <label>Name</label>
+                          <input type="text" name="name" class="form-control" placeholder="Your Name">
+                          </div>
+                          <div class="form-group">
+                            <label>Email</label>
+                          <input type="email" name="_replyto" placeholder="example@gmail.com">
+                          </div>
+                          <div class="form-group">
+                            <label>Massage</label>
+                            <textarea class="form-control" rows="4"></textarea>
+                            </div>
+                          <input type="submit" value="Send">
+                        </form>
+                       
+                  </div>
+                </div>
+              </div>
+            
+        </div>
+    </div>
+</div>
+<!-- footer -->
+
+<div class="bg-secondary text-center text-light p-3">
+    Copyright 2019 Slukat Learning Center
+</div>
+<!-- scrip js -->
+<script src="jquery-3.3.1.js"></script>
+<script src="bootstrap.js"></script>
+
+</body>
+
+</html>
